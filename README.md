@@ -1,4 +1,1 @@
-# StudentKit2018
-Finally, it's here
-
-ugadmissions.iiit.ac.in/StudentKit/
+# Student-Kit-2022
