@@ -1,24 +1,16 @@
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 <head>
-    <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon-->
     <link rel="shortcut icon" href="img/fav.png">
-    <!-- Author Meta -->
     <meta name="author" content="CodePixar">
-    <!-- Meta Description -->
     <meta name="description" content="">
-    <!-- Meta Keyword -->
     <meta name="keywords" content="">
-    <!-- meta character set -->
     <meta charset="UTF-8">
-    <!-- Site Title -->
     <title>Student Kit</title>
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,500,600" rel="stylesheet">
     
-    <!-- CSS ============================================= -->
     <link rel="stylesheet" href="css/linearicons.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -29,14 +21,10 @@
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     
     <style>
-        #event {
-            color: #c1acfc;
-        }
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            /* background-color: #f8f9fa; */
         }
         .main-wrapper-first {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -76,52 +64,45 @@
             background-color: #4a2bb8;
         }
         .about-generic-area {
-            padding: 50px 0;
-            background-color: white;
+            padding: 80px 0;
+            background-color: #fcfcfc;
+            min-height: 50vh;
         }
-        .about-title {
+        
+        /* TBA Card Styles */
+        .tba-card {
+            background: #ffffff;
+            border-radius: 15px;
+            padding: 60px 30px;
             text-align: center;
-            margin-bottom: 50px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            max-width: 600px;
+            margin: 0 auto;
+            border-top: 6px solid #5e39e5;
+            transition: transform 0.3s ease;
+        }
+        .tba-card:hover {
+            transform: translateY(-5px);
+        }
+        .tba-card i {
+            font-size: 5rem;
+            color: #c1acfc;
+            margin-bottom: 25px;
+            display: block;
+        }
+        .tba-card h2 {
+            font-size: 2.2rem;
             color: #333;
-            font-size: 2.5rem;
+            margin-bottom: 15px;
+            font-weight: 600;
         }
-        .table-container {
-            width: 96%;
-            margin: 0 auto;
-            overflow-x: auto;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            min-width: 800px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-            vertical-align: top;
-        }
-        th {
-            background-color: #f2f2f2;
-            font-weight: bold;
-        }
-        .programme-cell {
-            font-weight: bold;
-        }
-        .note-section {
-            margin-top: 20px;
-            padding: 15px;
-            background-color: #f8f9fa;
-            border-left: 4px solid #5e39e5;
-            border-radius: 5px;
-        }
-        .note-section p {
+        .tba-card p {
+            font-size: 1.1rem;
+            color: #666;
             margin: 0;
-            font-weight: bold;
-            color: #333;
+            line-height: 1.6;
         }
+
         .footer-area {
             background-color: #333;
             color: white;
@@ -162,7 +143,7 @@
                             <div class="banner-content">
                                 <h1>Induction Schedule</h1>
                             </div>
-                            <div style="margin: 20px;">
+                            <div style="margin: 20px; text-align: center;">
                                 <button onclick="history.back()" class="back-btn">← Back</button>
                             </div>
                         </div>
@@ -173,101 +154,18 @@
     </div>
 
     <div class="main-wrapper px-0">
-        <!-- About Generic Start -->
         <section class="about-generic-area">
             <div class="container border-top-generic px-0">
-                <h1 class="about-title">Schedule for UG 2k25 Students</h1>
                 
-                <div class="table-container">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Date & Time</th>
-                                <th>Programme</th>
-                                <th>Event & Venue</th>
-                                <th>Venue</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Saturday 26, July 10:00-11:00AM</td>
-                                <td>SMSR & PGSSP</td>
-                                <td>Programme Orientation</td>
-                                <td>SMSR – H203; PGSSP – H204</td>
-                            </tr>
-                            <tr>
-                                <td>Saturday 26, July 2:00-3:30PM</td>
-                                <td class="programme-cell" rowspan="6">UG1</td>
-                                <td>Meeting SPEC students with Parents</td>
-                                <td>H204</td>
-                            </tr>
-                            <tr>
-                                <td>Saturday 26, July 4:00-5:30PM</td>
-                                <td>Welcome Session</td>
-                                <td>H105 & H205 & H201 to 204 and H301 to 304 with MS Teams</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="2">Sunday 27, July 9:30-1:00PM</td>
-                                <td>Meeting with Parents</td>
-                                <td>Plan A: Research Street</td>
-                            </tr>
-                            <tr>
-                                <td>English Diagnostic test for Students</td>
-                                <td>Teaching labs – Vindhya</td>
-                            </tr>
-                            <tr>
-                                <td>Sunday 27, July 3:00-4:00PM</td>
-                                <td>Meeting Women students with Parents</td>
-                                <td>H105</td>
-                            </tr>
-                            <tr>
-                                <td>Sunday 27, July 4:15-5:50PM</td>
-                                <td>Meeting DD students with Parents</td>
-                                <td>H105 & H205 with MS Teams</td>
-                            </tr>
-                            <tr>
-                                <td>Monday 28, July from 2:00 to 3:30PM</td>
-                                <td class="programme-cell" rowspan="2">MS & PhD</td>
-                                <td>Welcome Session</td>
-                                <td>H105</td>
-                            </tr>
-                            <tr>
-                                <td>Monday 28, July from 3:30 to 5:00PM</td>
-                                <td>Programme Orientation</td>
-                                <td>H204</td>
-                            </tr>
-                            <tr>
-                                <td>Tuesday 29, July 10:00-11:00AM</td>
-                                <td class="programme-cell" rowspan="2">LE1</td>
-                                <td>Welcome and Orientation Session</td>
-                                <td>H204</td>
-                            </tr>
-                            <tr>
-                                <td>Tuesday 29, July 3:30-5:30PM</td>
-                                <td>Welcome Session</td>
-                                <td>H105</td>
-                            </tr>
-                            <tr>
-                                <td>Wednesday 30, July 10:00-12:00 Noon</td>
-                                <td class="programme-cell">M.Tech</td>
-                                <td>Programme Orientation</td>
-                                <td>CSE – H204, CSIS – H203, CASE – H202, PDM – H201</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    
-                    <div class="note-section">
-                        <p><strong>Note for Parents:</strong> Parents can leave after the evening of 27th July. Attending these induction sessions is necessary for all students and parents as scheduled above.</p>
-                    </div>
-                    
-                    <div class="note-section" style="margin-top: 15px;">
-                        <p><strong>Tentative Induction Schedule:</strong> For the most up-to-date schedule details, please refer to the <a href="https://iiithydstudents-my.sharepoint.com/:x:/g/personal/apex_students_iiit_ac_in/EXrmM_lCpVVMiE19QdQUW_IB_rgpO0s4MBSj8WnMIdRsIQ?e=OP0RI7" target="_blank" style="color: #5e39e5; text-decoration: underline;"> tentative induction schedule document</a>.</p>
-                    </div>
+                <div class="tba-card">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                    <h2>To Be Announced</h2>
+                    <p>The induction schedule for the upcoming academic year is currently being finalized. Please check back later for the complete itinerary.</p>
                 </div>
+
             </div>
         </section>
-        <!-- End Generic Start -->
-    </div>
+        </div>
 
     <footer class="footer-area relative">
         <div class="container">
@@ -278,7 +176,7 @@
                     <a href="index.html#shift">The Kit</a>
                     <a href="https://www.iiit.ac.in/">IIITH</a>
                 </div>
-                <div class="copy-right-text">Student Kit 2025 | created by Apex'25</div>
+                <div class="copy-right-text">Student Kit 2026-27 | Created by Apex '26</div>
             </div>
         </div>
     </footer>
