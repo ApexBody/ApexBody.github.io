@@ -1,250 +1,370 @@
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 <head>
-	<!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Favicon-->
-	<link rel="shortcut icon" href="img/fav.png">
-	<!-- Author Meta -->
-	<meta name="author" content="CodePixar">
-	<!-- Meta Description -->
-	<meta name="description" content="">
-	<!-- Meta Keyword -->
-	<meta name="keywords" content="">
-	<!-- meta character set -->
-	<meta charset="UTF-8">
-	<!-- Site Title -->
-	<title>Student Kit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/fav.png">
+    <meta name="author" content="CodePixar">
+    <meta name="description" content="Informal Brochure for IIIT Hyderabad">
+    <meta name="keywords" content="IIIT, Hyderabad, College Life, Student Kit">
+    <meta charset="UTF-8">
+    <title>Student Kit - Informal Brochure</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Poppins:100,300,500,600" rel="stylesheet">
-		<!--
-		CSS
-		============================================= -->
-		<link rel="stylesheet" href="css/linearicons.css">
-		<link rel="stylesheet" href="css/owl.carousel.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/nice-select.css">
-		<link rel="stylesheet" href="css/magnific-popup.css">
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-        <style>
-            em{
-                font-weight: bold;
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <style>
+        /* Headings styling to make them stand out */
+        h2.section-heading, h3.section-heading, h4.section-heading {
+            color: #5e39e5;
+            font-weight: 600;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            border-bottom: 2px solid #5e39e5;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        em.sub-heading {
+            font-weight: 700;
+            font-size: 18px;
+            display: block;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: #222;
+            font-style: normal;
+        }
+        /* Collage styling for images */
+        .image-collage {
+            display: grid;
+            /* Defins 2 equal columns by default */
+            grid-template-columns: repeat(2, 1fr);
+            /* Smaller gap between images */
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .image-collage img {
+            width: 100%;
+            /* Increased height to make images bigger */
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            /* Smooth transition for mobile resizing */
+            transition: height 0.3s ease;
+        }
+
+        /* Responsive adjustment for mobile devices */
+        @media (max-width: 576px) {
+            .image-collage {
+                /* Stacks images 1 per row on small screens */
+                grid-template-columns: 1fr;
             }
-        </style>
-	</head>
-	<body>
-		<div class="main-wrapper-first">
-			<div class="hero-area genric-banner relative">
-				<header>
-					<div class="container">
-						<div class="header-wrap">
-							<div class="header-top d-flex justify-content-between align-items-center">								<div class="logo">
-									<a href="index.html"><img src="img/iiit-logo-2.png" alt="" width="22%"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</header>
-				<div class="banner-area">
-					<div class="overlay overlay-bg"></div>
-					<div class="container">
-						<div class="row height align-items-center justify-content-center">
-							<div class="col-lg-9">
-								<div class="banner-content text-center">
-									<!-- <h4 class="text-uppercase">your best partner</h4> -->
-									<h1>Introduction to IIIT</h1>
-									<!-- <a href="#" class="primary-btn d-inline-flex align-items-center"><span class="mr-10">Get Started</span><span class="lnr lnr-arrow-right"></span></a> -->
-								</div>
-								<div style="margin: 20px;">
-									<button onclick="history.back()" class="back-btn" style="background-color: #5e39e5; color: white; border: none; border-radius: 6px; padding: 10px 20px; font-size: 16px; cursor: pointer;" onmousedown="this.style.backgroundColor='#0056b3'" onmouseup="this.style.backgroundColor='#007bff'">← Back</button>
-								  </div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="main-wrapper">
-			<!-- Start parallux Area -->
-			<!-- End parallux Area -->
-			<!-- About Generic Start -->
-			<section class="about-generic-area">
-				<div class="container border-top-generic">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="img-text">
-								<!-- <img src="img/a.jpg" alt="" class="img-fluid float-left mr-20 mb-20"> -->
-                                <p>IIIT-H is a university that provides the quintessential college life.
-                                        The curriculum not only provides the core technical courses required for career oriented endeavors but also focuses on molding the student as a whole by providing life-skills as part of their non technical courses. IIIT-H is known for its ground breaking research, needless to say, a strong emphasis is laid on research oriented knowledge building.
-                                        The research oriented approach helps solve real-life problems and allows students to work on  cutting edge technology to derive the solutions. As the director, Dr. P.J. Narayanan likes to say, “IIIT-H prepares not for your first job, but for your last job.”</p>
-                                        <p>The college is efficiently organized into research centers and labs to facilitate inter-disciplinary research and brilliant network for exchange of knowledge and ideas. Here, the curriculum allows flexibility for the student in selecting courses and projects.</p>
-                                        <p>The institute's unique Human Values program at the undergraduate level has already gained attention at national and international levels. The perfect blend of core, science and humanities courses is the recipe for a highly balanced program. The institute offers its students a unique environment that promotes cultural, sports and societal contributions, art, self-governance and human values along with striving for academic excellence. </p>
-										
-                                        <p></p>
-										<em>Academics</em>
+            .image-collage img {
+                /* Slightly shorter height for mobile aspect ratios */
+                height: 250px;
+            }
+        }
+        p {
+            text-align: justify;
+            line-height: 1.7;
+        }
+        .hyperlink {
+            color: #5e39e5;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+        .hyperlink:hover {
+            color: #333;
+        }
+        /* Portrait Collage - 3 images per row */
+        .portrait-collage {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Forces exactly 3 columns */
+            gap: 15px; /* Adjust gap here */
+            margin: 20px 0;
+        }
+
+        .portrait-collage img {
+            width: 100%;
+            aspect-ratio: 3 / 6; /* Forces a tall, portrait shape */
+            object-fit: cover; /* Prevents image distortion */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: height 0.3s ease;
+        }
+
+        /* Responsive adjustments for smaller screens */
+        @media (max-width: 768px) {
+            .portrait-collage {
+                grid-template-columns: repeat(2, 1fr); /* 2 in a row on tablets */
+            }
+        }
+
+        @media (max-width: 576px) {
+            .portrait-collage {
+                grid-template-columns: 1fr; /* 1 in a row on mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-wrapper-first">
+        <div class="hero-area genric-banner relative">
+            <header>
+                <div class="container">
+                    <div class="header-wrap">
+                        <div class="header-top d-flex justify-content-between align-items-center">
+                            <div class="logo">
+                                <a href="index.html"><img src="img/iiit-logo-2.png" alt="" width="22%"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="banner-area">
+                <div class="overlay overlay-bg"></div>
+                <div class="container">
+                    <div class="row height align-items-center justify-content-center">
+                        <div class="col-lg-9">
+                            <div class="banner-content text-center">
+                                <h1>Campus Life at IIIT</h1>
+                            </div>
+                            <div style="margin: 20px;">
+                                <button onclick="history.back()" class="back-btn" style="background-color: #5e39e5; color: white; border: none; border-radius: 6px; padding: 10px 20px; font-size: 16px; cursor: pointer;" onmousedown="this.style.backgroundColor='#0056b3'" onmouseup="this.style.backgroundColor='#007bff'">← Back</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-wrapper">
+        <section class="about-generic-area">
+            <div class="container border-top-generic">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="img-text">
+                            
+                            <h2 class="section-heading">Introduction</h2>
+                            <p>
+                                Welcome to <a href="https://www.iiit.ac.in/" target="_blank" class="hyperlink">IIIT-H</a>, an institution that promises an exemplary and well-rounded university experience. Our academic framework is meticulously designed to not only impart rigorous technical knowledge essential for a thriving professional career but also to integrate vital life skills through our diverse humanities and non-technical programs. 
+                            </p>
+                            <p>
+                                Renowned for our trailblazing research, we place a heavy emphasis on fostering a research-centric mindset among students. This approach empowers our community to tackle real-world challenges using cutting-edge technology. 
+                            </p>
+                            <p>
+                                Our academic structure is uniquely distributed across specialized research centers and labs, dismantling traditional boundaries to promote cross-disciplinary innovation and a seamless exchange of ideas. Furthermore, our acclaimed Human Values program ensures that personal development keeps pace with academic rigor, creating an environment that actively celebrates cultural diversity, artistic expression, and self-governance.
+                            </p>
+
+                            <em class="sub-heading">Academics</em>
+                            <p>
+                                The academic ecosystem here is highly flexible. From your fifth semester onward, you are granted the liberty to choose your electives, allowing you to chart your own educational trajectory. With an expansive array of courses spanning numerous disciplines, you can customize your learning experience to align perfectly with your passions and career aspirations.
+                            </p>
+                            <div class="image-collage">
+                                <img src="img/2026/q5.jpg" alt="">
+                                <img src="img/2026/q8.jpg" alt="">
+                                <img src="img/2026/q1.jpg" alt="">
+                                <img src="img/2026/q2.jpg" alt="">
+                                <img src="img/2026/q4.jpg" alt="">
+                                <img src="img/2026/q7.jpg" alt="">
+                               
+
+
+                            </div>
+                            <h2 class="section-heading">Fests @ IIIT-H</h2>
+
+                            <em class="sub-heading">Felicity</em>
+                            <p>
+                                Felicity is our spectacular annual techno-cultural festival. Spread over three vibrant days, it features an exhilarating mix of competitions, technical workshops, inspiring guest lectures, and electrifying live performances by renowned bands. The festivities kick off with spectacular inaugural performances orchestrated by the students, while the campus is adorned with magnificent art installations by the Felicity team. Discover more on the <a href="https://felicity.iiit.ac.in/" target="_blank" class="hyperlink">Felicity Website</a> or follow the fun on <a href="https://www.instagram.com/felicity.iiith" target="_blank" class="hyperlink">Instagram</a>.
+                            </p>
+                            <em class="sub-heading">Infinium</em>
+                            <p>
+                                Infinium represents the premier technical dimension of our campus festivals. It is a hub for developers, creators, and innovators to test their mettle in hackathons, coding contests, and tech exhibitions. It’s where theoretical knowledge transforms into practical magic. Learn more on the <a href="https://felicity.iiit.ac.in/infinium/" target="_blank" class="hyperlink">Infinium Website</a>.
+                            </p>
+                            
+
+                            <div class="image-collage">
+                                <img src="img/2026/y7.JPG" alt="">
+                                <img src="img/2026/y2.JPG" alt="">
+                                <img src="img/2026/y3.JPG" alt="">
+                                <img src="img/2026/y4.JPG" alt="">
+                                <img src="img/2026/y5.JPG" alt="">
+                                <img src="img/2026/y6.JPG" alt="">
+                                <img src="img/2026/y1.JPG" alt="">
+                                <img src="img/2026/y8.JPG" alt="">
+                                <img src="img/2026/y9.JPG" alt="">
+                                <img src="img/2026/skit.JPG" alt="">
+
+
+                            </div>
+
+                            
+                            <h2 class="section-heading">Campus Life & Accommodation</h2>
+                            
+                            <em class="sub-heading">Hostels</em>
+                            <p>
+                                The campus houses four distinct residential blocks: Palash Nivas (Old Boys Hostel), Kadamba Nivas (New Boys Hostel), Bakul Nivas, and Parijaat Nivas (Girls Hostel). Designed for comfort, the hostels feature spacious rooms and modern amenities including washing machines on every floor. Recreational facilities such as gyms, TV rooms (highly popular during cricket matches!), and indoor sports setups for table tennis and chess are readily available. Emphasizing a culture of responsibility, the campus is open 24/7 without arbitrary movement restrictions, facilitating late-night lab sessions and study groups.
+                            </p>
+
+                            <em class="sub-heading">Dining System & Messes</em>
+                            
                                 
-                                        <p>
-											At IIIT-H, the academic model allows for greater freedom and flexibility in terms of what you wish to study. You are given the opportunity to select electives starting from your 5th semester, and you decide the course of your education from there on. A wide range of courses across various disciplines are offered, allowing students to explore their interests and tailor their academic journey accordingly 
-										</p>
+                            <p>
+                                Our flexible dining system operates across three primary messes, offering an array of cuisines to suit diverse palates. The North Mess (in OBH) specializes in authentic North Indian cuisine, Yuktahaar focuses on healthy, oil-free preparations, and Kadamb (in NBH) serves a delightful mix of North and South Indian food, including non-vegetarian options five days a week. 
+                            </p>
+                            <p>
+                                Students must pre-register their preferred meals at least four days in advance via the official <a href="http://mess.iiit.ac.in" target="_blank" class="hyperlink">Mess Portal</a>. Cleanliness and hygiene are paramount, with rigorous sanitation schedules, routine staff health check-ups, and fresh ingredient sourcing maintained across all dining halls. 
+                                <br><br>
+                                <strong>Standard Mess Timings:</strong><br>
+                                Breakfast: 7:30 AM - 9:30 AM | Lunch: 12:30 PM - 2:30 PM | Snacks: 5:00 PM - 6:00 PM | Dinner: 7:30 PM - 9:30 PM
+                            </p>
+
+                            <em class="sub-heading">Canteens & Eateries</em>
+                            <p>
+                                For quick bites and casual hangouts, the campus is dotted with excellent canteens:
+                            </p>
+                            <ul>
+                                <li><strong>Vindhya Canteen (VC):</strong> Situated near the academic blocks, VC is a hub for both students and faculty. Famous for tea, coffee, puffs, and secret menu items like pav bhaji.</li>
+                                <li><strong>Basketball Canteen (BBC):</strong> Located near the hostels, it’s the go-to breakfast spot offering diverse dosa and Maggi combinations.</li>
+                                <li><strong>Juice Canteen (JC):</strong> Renowned for its refreshing Oreo and avocado honey shakes, plus classic watermelon juice and nimbu soda.</li>
+                                <li><strong>Munduru's Kitchen:</strong> Located right next to BBC, this is a student favorite serving piping hot momos, crispy fries, nuggets, and sweet waffles.</li>
+                                <li><strong>Devid's Bakery:</strong> The night-owl’s savior, operating from 4 PM to 4 AM, popular for its ice cream brownies.</li>
+                                <li><strong>Sri Akshaya Food Court:</strong> Found opposite VC, offering classic street foods like pani puri and idli.</li>
+                                <li><strong>BBInstant:</strong> Automated kiosks located within the hostels offering 24/7 access to snacks and beverages.</li>
+                            </ul>
+                            <div class="image-collage">
+                                <img src="img/2026/north.png" alt="">
+                                <img src="img/2026/obh.png" alt="">
                                 
-                                        <em>Felicity</em>
                                 
-                                        <p>Felicity is the annual techno-cultural fest organized by IIIT-H. A three-day long spectacle, it involves a large range of exciting activities, competitions, talks, workshops and stunning performances by bands from all over the country.
-                                        It begins with the Inaugurals, performed by our very own students who put in months of effort to make the show a success. The campus buzzes with excitement as the Kalakshetra team puts a one up on the glamour with beautiful paintings, sculptures and creatives pieces of art.
-                                        From then on, there is something for everyone!</p>
-                                        <p> The different online and offline events organized by students create a wonderful 3-day bonanza. One of the happiest moments in college would be organizing or coordinating a successful event for Felicity. Coupled with inspiring talks and stellar band performances, Felicity makes for a truly indelible experience for organizers, participants and audience alike! </p>
-										<img src="img/felicity.png" alt="" class="img-fluid float-left mr-40 mb-20 w-100 d-block" style="width: 400px;height: 600px; object-fit: contain;">
-                                        <br>
-										<h4>Life@IIIT-H</h4>
-                                        <!-- <br> -->
+                            </div>
+                            <h2 class="section-heading">Extracurriculars & Clubs</h2>
+                            
+                            <em class="sub-heading">Student Clubs</em>
+                            <p>
+                                Diversity thrives within our student community, making it easy to find peers who share your passions. Extracurriculars are actively managed through the <a href="https://clubs.iiit.ac.in/" target="_blank" class="hyperlink">Clubs Council</a>. Among the most popular are <strong>The Gaming Club (TGC)</strong> [<a href="https://www.instagram.com/tgc_iiith?igsh=N3M4Z2l0b2NscTR0" target="_blank" class="hyperlink">Insta</a>], <strong>The Dance Crew (TDC)</strong> [<a href="https://www.instagram.com/thedancecrew_iiith?igsh=MW1la2N6ODR0OGhzNA==" target="_blank" class="hyperlink">Insta</a>], <strong>The Music Club</strong> [<a href="https://www.instagram.com/themusicclub.iiith?igsh=MTd6OTN4aDNvanVhYw==" target="_blank" class="hyperlink">Insta</a>],the <strong>Open Source Development Group (OSDG)</strong> [<a href="https://www.instagram.com/osdg.iiith?igsh=MXQ0ZGg5ZzdocjcwdA==" target="_blank" class="hyperlink">Insta</a>], and the <strong>Amateur Sports Enthusiasts Club (ASEC)</strong> [<a href="https://www.instagram.com/asec_iiith?igsh=MWQ2Nm5tcDM4aTVtbQ==" target="_blank" class="hyperlink">Insta</a>], alongside many more focusing on astronomy, literature, coding, and design. You are even encouraged to launch your own club if you have a unique vision!
+                            </p>
+                            <div class="image-collage">
+                                <img src="img/2026/m1.jpeg" alt="">
+                                <img src="img/2026/m2.jpeg" alt="">
+                                <img src="img/2026/m6.jpeg" alt="">
+                                <img src="img/2026/q14.jpeg" alt="">
+                                <img src="img/2026/q13.jpeg" alt="">
+                                <img src="img/2026/m5.jpeg" alt="">
+                                <img src="img/2026/m3.jpeg" alt="">
+                                <img src="img/2026/m7.jpeg" alt="">
                                 
-                                        <em>Hostels</em>
-                                        <p>Here at IIIT-H, we have 4 hostels Palash Nivas (OBH), Kadamba Nivas (NBH), Bakul Nivas and Parijaat Nivas (GH). The rooms are quite spacious. The hostels also have facilities like washing machines on each floor. A TV is installed on the ground floor of OBH for students to use at any time - specially during cricket season!</p>
-                                        <p>NBH has a general store which sell everyday things required by students. Other than this, there are also facilities like gyms and indoor sports facilities like TT, Chess and Carrom, inside or near the hostels.
-                                        We at IIIT-H believe in the responsible nature of students, and to facilitate working in the labs, there is no restriction on movement inside campus for anyone at anytime.</p>
-										
-										<img src="img/obh.png" alt="" class="img-fluid float-left mr-40 mb-20 w-100 d-block" style="width: 400px;height: 600px; object-fit: contain;">
+                            </div>
+                            <div class="portrait-collage">
+                                <img src="img/2026/image15.jpeg" alt="">
+                                <img src="img/2026/image16.jpeg" alt="">
+                                <img src="img/2026/image17.jpeg" alt="">
+                            </div>
 
-                                        <em>Mess and Canteens</em>
-                                        <p>IIIT-H offers a unique and flexible dining system with three different messes, each serving distinct cuisines and catering to varied food preferences. Students can choose where they wish to eat for each meal of the day. The OBH First Floor houses a mess that serves North Indian cuisine, while Yuktahaar provides healthy, oil-free food options for those seeking a nutritious diet. Kadamb, located in the New Boys Hostel (NBH), offers a mix of North and South Indian dishes. It also includes non-vegetarian meals, which are served five days a week, while vegetarian meals are offered on all days. To manage this system efficiently, students are expected to register their meal preferences on the mess portal at least four days in advance, after reviewing the menus of the respective messes.</p>
-										<!--<img src="img/messes/north.jpeg" alt="" class="img-fluid float-left mr-20 mb-20">-->
-										<em>North Mess</em>		
-										<p></p>
-										<img src="img/north.png" alt="" style="width: 100%; display: block; margin: 0 auto;">
-										<p></p>
-											
-										<p></p>
-										
-										<em>Yuktahaar Mess</em>	
-										<img src="img/messes/yuk.jpeg" alt="" class="img-fluid float-left mr-20 mb-20">
-											
-										<p>The messes at IIIT-H are committed to maintaining the highest standards of cleanliness and hygiene to ensure student well-being. Each mess follows a rigorous cleaning schedule, including daily disinfection of dining and kitchen areas and weekly deep cleaning of all facilities. Staff are required to adhere to strict personal hygiene protocols, wearing clean uniforms, hairnets, and gloves, with regular health check-ups to ensure fitness for duty. Fresh, high-quality ingredients are sourced, and proper storage facilities are maintained. Regular pest control and effective waste management practices, including segregation and recycling, are in place. Periodic inspections ensure compliance with these standards, providing students with a safe and hygienic dining environment.</p>
-										<em>Mess Timings</em>
-										<p>Breakfast: 7:30 AM - 9:30 AM<br>Lunch: 12:30 PM - 2:30 PM<br>Snacks: 5:00 PM - 6:00 PM<br>Dinner: 7:30 PM - 9:30 PM</p>		
-										<h4>Canteens</h4>
-										<p>Alongside this, the campus has multiple canteens at different locations around campus, each popular for their own specialities. For example, you would soon find yourself very familiar with the famous Juice canteen which is one of the most popular spots for hanging out with friends! Or you could chill out with a sandwich and tea near the basketball court canteen!</p>
-										<em>Vindhya Canteen (VC)</em>
-										<p>
-											Conveniently situated around classrooms, the library, workspaces, and labs, VC attracts professors and students alike. Known for its tea, coffee, puffs, omelettes, and sandwiches, it also offers secret menu items like pav bhaji and papdi chaat. Although the food quality is excellent, some students find the pricing a bit high. The beautiful sitting area, especially lively during rains, makes it a popular spot for events.
-										</p>
-										
-										<em>Basketball Canteen (BBC)</em>
-										<p>
-											Located near the hostels, BBC is a favorite for breakfasts and quick snacks. Known for its dosa and Maggi, the variety of combinations available keeps the menu interesting. The seating arrangement is ideal for relaxing with friends, and its proximity to the amphitheatre means it stays open late during events.
-										</p>
+                            <em class="sub-heading">House System</em>
+                            <p>
+                                Upon admission, every student is inducted into one of four houses: Aakash, Agni, Prithvi, or Vayu. The houses clash in friendly, year-round cultural and sporting battles to claim ultimate glory. Highlights include Freshers' Night, Flair (crowning Mr. and Ms. Flair), Octave (an inter-house musical showdown), and Cult Night (the grand dance finale).
+                            </p>
+                            <div class="image-collage">
+                                <img src="img/2026/Agni.jpeg" alt="">                               
+                                <img src="img/2026/Aakash2.jpeg" alt="">                               
+                                <img src="img/2026/so2.JPG" alt="">
+                                <img src="img/2026/so1.JPG" alt="">
+                                <img src="img/2026/sk2.JPG" alt="">                               
+                                <img src="img/2026/prithvi2.jpeg" alt="">
+                                <img src="img/2026/Vayu.jpeg" alt="">
+                                <img src="img/2026/p1.JPG" alt="">
+                                <img src="img/2026/p3.JPG" alt="">
+                                <img src="img/2026/sk9.JPG" alt="">
+                                <img src="img/2026/so5.JPG" alt="">
+                                <img src="img/2026/gd1.JPG" alt="">
+                                <img src="img/2026/p5.JPG" alt="">
+                                <img src="img/2026/p2.JPG" alt="">                              
+                            </div>
+                            <em class="sub-heading">Sports at IIIT</em>
+                            <p>
+                                The sports scene remains active all year. The Monsoon semester is dedicated to inter-house tournaments across sports like basketball, football, and tennis, where juniors and seniors team up. In the Spring semester, the focus shifts to inter-batch rivalries. Students also have access to excellent swimming facilities at the adjacent Gachibowli stadium. All the details of sports events and schedules are available on the <a href="https://www.instagram.com/sportscouncil.iiith?igsh=MXNnb3NiZ2NxcmY0eQ==" target="_blank" class="hyperlink">Sports Council's Instagram</a>.
+                            </p>
+                            <div class="image-collage">
+                                <img src="img/2026/sp1.jpeg" alt="">   
+                                <img src="img/2026/sp3.jpeg" alt="">                            
+                                <img src="img/2026/sp2.JPG" alt="">                                                              
+                                <img src="img/2026/sp4.jpeg" alt="">
+                                <img src="img/2026/q10.jpeg" alt="">
+                                <img src="img/2026/q11.jpeg" alt="">
+                                <img src="img/2026/h1.jpg" alt="">
+                                <img src="img/2026/z3.jpeg" alt="">
 
 
-										
-										<em>Juice Canteen (JC)</em>
-										<p>
-											Best known for its oreo shake, JC also offers seasonal favorites like the avocado honey shake and the timeless watermelon with extra ice. Nimbu soda is another iconic item on their menu.
-										</p>
+                             
+                            </div>
+                            <div class="portrait-collage">
+                                <img src="img/2026/port1.jpeg" alt="">
+                                <img src="img/2026/port2.jpeg" alt="">
+                                <img src="img/2026/cric1.jpg" alt="">
+                            </div>
+                            <h2 class="section-heading">Campus Environment</h2>
+                            <p>
+                                Spanning 66 lush acres, our green, pollution-free campus comprises academic buildings named after iconic mountain ranges—Nilgiri, Vindhya, and Himalaya. Popular outdoor spots include the Amphitheatre and Felicity Grounds. Hyderabad’s climate generally features pleasant winters and hot summers, though the academic calendar ensures the summer break coincides with the peak heat.
+                            </p>
+                            <div class="image-collage">
+                                <img src="img/2026/z1.jpeg" alt="">   
+                                <img src="img/2026/z2.jpeg" alt="">                            
+                                <img src="img/2026/q0.jpg" alt="">                                                              
+                                <img src="img/2026/q9.jpg" alt="">
+                            </div>
+                            
+                            <h2 class="section-heading">Mental Well-being Support</h2>
+                            <p>
+                                University life can occasionally be overwhelming. Recognizing this, the institute provides comprehensive, free-of-cost counseling services to support students navigating academic pressures or personal transitions. 
+                            </p>
+                            <p>
+                                <strong>Programme Coordinator:</strong><br>
+                                Dr. Bhaktee Dongaonkar (bhaktee.dongaonkar@iiit.ac.in)<br><br>
+                                <strong>Counsellors:</strong><br>
+                                Ms. Bhavani Pullabhatla (bhavani.p@iiit.ac.in)<br>
+                                Dr. Kiranmayee Bapi (counsellor.kiranmayee@iiit.ac.in)<br>
+                                Tanushree Mustafi (tanusree.mustafi@iiit.ac.in)<br><br>
+                                <strong>Admin Officer:</strong><br>
+                                Nadeem Hussian | +91 93916 33138<br><br>
+                                <strong>Student Volunteers:</strong><br>
+                                well-being.volunteers@iiit.ac.in
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-										<em>Devid's Bakery</em>
-										<p>
-											Open from 4 PM to 4 AM, Devid's Bakery is the most reasonably timed canteen on campus. Despite being slightly overpriced, their ice cream brownie is worth trying. It's the only place open past 2 AM.
-										</p>
-										
-										<em>Tantra</em>
-										<p>
-											Ideal for those who miss regular meals, Tantra offers meal-sized portions. Its menu, though with some amusing typos like "chicken moms," provides substantial meals to satisfy hunger.
-										</p>
-
-										<em>Ministry of Cheese</em>
-										<p>
-											A small stall near VC known for cheesy fries, nuggets, and quick bites—perfect for snack lovers.
-										</p>
-
-										<em>Tea & Coffee Stall</em>
-										<p>
-											Located beside Tantra, ideal for a quick cup of chai or coffee after meals or during late-night study sessions.
-										</p>
-
-										<em>Sri Akshaya Food Court</em>
-										<p>
-											Located opposite VC, offers Indian snacks like pav bhaji, pani puri, idli and vada pav.
-										</p>
-										<em>BBInstant</em>
-										<p>Apart from the canteens BBInstant provides with crisps, soda and fizzy drinks, biscuits and packed deserts right in the hostel premises for the students 24x7</p>
-										<p></p>
-                                        <h4>Campus and Environment</h4>
-                                        <p>The campus is spread over a sprawling area of 66 acres. There are four buildings that house the corporate schools and research centers. In addition to this, the academic building has lecture halls, tutorial rooms, computer and electronics labs and offices for the administration and faculty. The buildings are named after the mountain ranges - Nilgiri, Vindhya and Himalaya.</p>
-                                        <p>The Amphitheatre, Juice canteen and the Felicity Ground are common spots around the college for students to enjoy the open air.
-                                        We believe in keeping our campus clean, green and pollution-free. All roads on campus are lined with trees on both sides and there are garbage bins at every corner.</p>
-                                        <p>Hyderabad experiences a generally moderate climate, with winters that are comfortably cool and rarely dip below 10–12°C, making the season pleasant and easy to manage. Summers, particularly in April and May, can become quite hot, with average highs reaching 38–40°C and occasionally soaring above 42°C during heatwaves. Fortunately, the school summer break aligns with this period, offering respite from the intense heat. Overall, the city enjoys a balanced climate for most of the year, with only a few weeks of extreme temperatures.</p>
-										<img src="img/campusimg.png" alt="" class="img-fluid float-left mr-40 mb-20 w-100 d-block" style="width: 400px;height: 600px; object-fit: contain;">
-                                        <p></p>
-										
-                                        <h4>Co-Curriculars</h4>
-                                        <!-- <br> -->
-                                
-                                        <em>Clubs</em>
-                                
-                                        <p>IIIT-H is a small but diverse community and it's not very difficult to find people who share the same interests as yours. Therefore, there are a number of small clubs formed by enthusiasts who are passionate about the same things. We have clubs ranging from Music, Dance, Quizzing, Literary and Design to Programming and Open Source Development, all of which hold regular meetings and activities. And the best part is that if you want you can start your own clubs. There are no restrictions and all you need is loads of enthusiasm and passion to build a club of your own.
-                                        </p>
-										<img src="img/clubs.png" alt="" class="img-fluid float-left mr-40 mb-20 w-100 d-block" style="height: 600px; object-fit: contain;">
-                                        
-                                        <em><br>House Activities</em>
-                                
-                                        <p>Right from your first day, each student is assigned to a house at IIIT-H. There are 4 houses -  Aakash, Agni, Prithvi and Vayu. Each year the houses compete in a year-round competition which involves various cultural and sports activities.</p>
-                                        <p>It starts with the Fresher’s Night where the newcomers in each house put up a cultural show to compete for their house’s glory. The Fresher’s Night also includes Flair, an event which tests the individual participants in all their cultural and character traits, ultimately culminating in the crowning of the coveted titles of Mr. Fresher and Ms. Fresher. </p>
-                                        <p>Besides Freshers’ Night, IIITH also has some exciting cultural events, like Octave, an inter-house music competition where students show off their singing and instrumental skills in front of a pumped-up crowd and Cult Night, the grand finale of all house activities — a high-energy dance showdown where each house puts on themed performances, battling it out for the prestigious rolling trophy. Both nights are packed with fun, creativity, and unforgettable moments that bring the campus alive.</p>
-                                        <p>Sports in IIIT-H are a year-round phenomena. Throughout the Monsoon semester, you have inter-house sports competitions, in hopes to win the house cup. </p>
-                                        <p>This includes sports like track, basketball, cricket, football, table tennis, volleyball and tennis. Juniors and seniors play on the same team, which leads to great bonds being formed. This takes a turn during Spring semester, where the sports competitions are inter-batch. Batches form their own teams, and this time they play for pride. By the way, the adjacent Gachibowli stadium has Olympic grade swimming facilities.</p>
-										<br>
-										<img src="img/cult.png" alt="" class="img-fluid float-left mr-40 mb-20 w-100 d-block" style="height: 500px; object-fit: contain;">
-										<br><br><br><br><br><br><br><br><br>	<br><br>		
-										<br><br>
-										<br>		
-										<em><br>Mental Well-being Support Team</em>
-										
-                                        <p>We understand that college can become stressful at times. Staying away from home, and the academic pressure and take over sometimes. To overcome such low moments, IIIT-H also offers a free of cost counselling facility with the college counsellor. Anyone can avail this facility.
-										<br><br>Programme Coordinator:<br>Dr. Bhaktee Dongaonkar (bhaktee.dongaonkar@iiit.ac.in)
-										<br><br>
-								
-										
-										Counsellors:
-										<br>
-										Ms. Bhavani Pullabhatla (bhavani.p@iiit.ac.in) <br> Dr. Kiranmayee Bapi (counsellor.kiranmayee@iiit.ac.in)  <br> Tanushree Mustafi (tanusree.mustafi@iiit.ac.in)
-										<br><br>
-										Admin Officer:<br>Nadeem Hussian<br>Contact No.: +91 93916 33138
-										<br>
-										<br>There are also student volunteers that the students can reach out to<br>Email: well-being.volunteers@iiit.ac.in
-										</p>
-				</div>
-			</section>
-			<!-- End Generic Start -->
-			<!-- Start Contact Area -->
-			<!-- Start newsletter Area -->
-			<!-- Start footer Area -->
-			<footer class="footer-area relative">
-				<div class="container">
-					<div class="footer-content d-flex flex-column align-items-center">
-						<div class="footer-menu">
-							<a href="https://www.linkedin.com/groups/14286239/">LinkedIn</a>
-							<a href="index.html">Home</a>
-							<a href="index.html#shift">The Kit</a>
-							<a href="https://www.iiit.ac.in/">IIITH</a>
-
-						</div>
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						<div class="copy-right-text">Student Kit 2025 | Created by Apex '25</div>
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					</div>
-				</div>
-			</footer>
-			<!-- End footer Area -->
-		</div>
-		<script src="js/vendor/jquery-2.2.4.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-		<script src="js/vendor/bootstrap.min.js"></script>
-		<script src="js/jquery.ajaxchimp.min.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script src="js/jquery.nice-select.min.js"></script>
-		<script src="js/parallax.min.js"></script>
-		<script src="js/jquery.magnific-popup.min.js"></script>
-		<script src="js/main.js"></script>
-	</body>
+            <footer class="footer-area relative">
+                <div class="container">
+                    <div class="footer-content d-flex flex-column align-items-center">
+                        <div class="footer-menu">
+                            <a href="https://www.linkedin.com/groups/14286239/">LinkedIn</a>
+                            <a href="index.html">Home</a>
+                            <a href="index.html#shift">The Kit</a>
+                            <a href="https://www.iiit.ac.in/">IIITH</a>
+                        </div>
+                        <div class="copy-right-text">Student Kit 2026-27 | Created by Apex '26</div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="js/vendor/jquery-2.2.4.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" crossorigin="anonymous"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.nice-select.min.js"></script>
+        <script src="js/parallax.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
