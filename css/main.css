@@ -2149,6 +2149,13 @@ body {
 
 .genric-banner h1 {
   margin-bottom: 10px;
+  font-size: 48px;
+}
+
+@media (max-width: 768px) {
+  .genric-banner h1 {
+    font-size: 32px;
+  }
 }
 
 .featured-area {
@@ -2551,6 +2558,12 @@ body {
 
 .about-generic-area p {
   margin-bottom: 20px;
+}
+
+.about-generic-area h2,
+.about-generic-area h3 {
+  font-weight: 600;
+  color: #222;
 }
 
 .white-bg {
