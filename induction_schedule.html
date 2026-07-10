@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 <head>
@@ -65,6 +66,40 @@
             min-height: 50vh;
         }
         
+        /* Table Styles */
+        .schedule-title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 600;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 600px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+            color: #333;
+        }
+        .bottom-notes {
+            margin-top: 20px;
+            margin-bottom: 50px;
+            padding: 20px;
+            background: #f9f9ff;
+            border-left: 4px solid #5e39e5;
+            border-radius: 4px;
+        }
+
         /* TBA Card Styles */
         .tba-card {
             background: #ffffff;
@@ -152,11 +187,64 @@
     <div class="main-wrapper px-0">
         <section class="about-generic-area">
             <div class="container border-top-generic px-0">
+
+                <h2 class="schedule-title">Reporting Schedule</h2>
+                <h4 style="text-align: center; margin-bottom: 20px; color: #555;">Events related to New Admissions during July 2026</h4>
                 
-                <div class="tba-card">
-                    <i class="fa fa-calendar" aria-hidden="true"></i>
-                    <h2>To Be Announced</h2>
-                    <p>The induction schedule for the upcoming academic year is currently being finalized. Please check back later for the complete itinerary.</p>
+                <div style="overflow-x:auto;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date & Time</th>
+                                <th>Programme</th>
+                                <th>Event Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Monday 27, July 9:00 to 1:00PM</td>
+                                <td>LE1</td>
+                                <td>Reporting</td>
+                            </tr>
+                            <tr>
+                                <td>Tuesday 28, July 10:00-11:00AM</td>
+                                <td>LE1</td>
+                                <td>Welcome and Orientation Session</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday 01, August 9:00-2:00PM</td>
+                                <td rowspan="6">UG1</td>
+                                <td>Reporting</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday 01, August 2:00-3:30PM</td>
+                                <td>Meeting SPEC students with Parents</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday 01, August 4:00-5:30PM</td>
+                                <td>Welcome Session</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday 02, August 9:30-1:00PM</td>
+                                <td>Meeting with Parents<br>English Diagnostic test for Students<br><strong>(Teaching labs – Vindhya)</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Sunday 02, August 3:00-4:00PM</td>
+                                <td>Meeting Women students with Parents</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday 02, August 4:15-5:50PM</td>
+                                <td>Meeting DD students with Parents</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="bottom-notes">
+                    <p style="margin: 0;"><strong>UG1 Induction:</strong> 3rd August to 8th August 2026</p>
+                    <p style="margin: 0;"><strong>Classwork for Non-UG1:</strong> on 30th July 2026</p>
+                    <p style="margin: 0;"><strong>Classwork for UG1:</strong> 10th August 2026</p>
+                    <p style="margin: 0;"><strong>Note:</strong> Parents are encouraged to attend all sessions scheduled through 2nd August and plan their return travel for the night of 2nd August or later.</p>
                 </div>
 
             </div>
@@ -188,3 +276,5 @@
     <script src="js/main.js"></script>
 </body>
 </html>
+
+```
